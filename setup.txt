@@ -1,0 +1,30 @@
+conda create -n sudoku_p36 python=3.6
+conda activate sudoku_p36
+
+conda install nb_conda
+
+#try installing throught condap
+conda install -c conda-forge opencv 
+conda install -c conda-forge matplotlib
+conda install -c conda-forge imutils
+
+
+#if conda doesn't work ,then through pip 
+pip install opencv-python
+
+pip install opencv-python==4.1.0
+#Installing Keras
+pip install keras
+#Installing Jupyter
+pip install jupyter
+#Installing Scikit-Learn
+pip install scikit-learn
+
+
+git 
+
+git init
+git clone https://github.com/sm67nono/AI-sudoku-Solver.git
+git checkout -b create-jupyter-nb master
+git push -u origin create-jupyter-nb
+
